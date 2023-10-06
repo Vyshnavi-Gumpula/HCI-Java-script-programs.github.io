@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>addition</title>
+        <script >
+        
+
+            function fact()
+            {
+                var n;
+                n=parseInt(document.getElementById("f").value);
+                m=1
+                for(var i=1;i<=n;i++) 
+                {
+                 m=m*i
+                }
+                document.writeln(m);
+            }
+           
+        </script>
+    </head>
+    <body>
+        
+        enter n value<input type="text" id="f"><br>
+        <button type="button" onclick="fact()">fact</button><br>
+    </body>
+</html>

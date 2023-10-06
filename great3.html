@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>addition</title>
+        <script >
+            
+            function great3()
+            {
+                var a,b,c;
+                a=parseInt(document.getElementById("c").value);
+                b=parseInt(document.getElementById("d").value);
+                c=parseInt(document.getElementById("e").value);
+                if(a>b&&a>c)
+                    document.writeln("a is big");
+                else if (b>c) {
+                    document.writeln("b is big");
+                } else {
+                    document.writeln("c is big");
+                }
+            }
+            
+        </script>
+    </head>
+    <body>
+        <h1>Greatest of 3 numbers</h1>       
+        
+        enter a value<input type="text" id="c"><br>
+        enter b value<input type="text" id="d"><br>
+        enter c value<input type="text" id="e"><br>
+        <button type="button" onclick="great3()">check</button><br>
+    </body>
+</html>
